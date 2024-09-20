@@ -1,9 +1,10 @@
-import { API_URL } from "../../page";
 import style from "./rich.module.css";
 
 export default async function RichPerson({ params }) {
   async function getRich() {
-    const response = await fetch(`${API_URL}/person/${params.rich}`);
+    const response = await fetch(
+      `https://billions-api.nomadcoders.workers.dev/person/${params.rich}`
+    );
     const json = await response.json();
     return json;
   }

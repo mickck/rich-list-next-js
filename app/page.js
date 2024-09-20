@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 
-export const API_URL = "https://billions-api.nomadcoders.workers.dev";
+const API_URL = "https://billions-api.nomadcoders.workers.dev";
 export const metadata = {
   title: "Buja list Home",
   description: "Find Buja list",
