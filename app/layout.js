@@ -25,8 +25,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex justify-center bg-slate-100 p-10">
-        <container className="container bg-black p-10 rounded-lg shadow-md">
+      <body className="flex justify-center bg-slate-100 p-5 md:p-10">
+        <container className="container bg-black p-6 md:p-10 rounded-lg shadow-md">
           {children}
         </container>
       </body>
